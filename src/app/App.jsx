@@ -1,6 +1,6 @@
-import AddNumber from "../features/AddNumber"
-import NumberBank from "../features/NumberBank"
-import "./app.css";
+import AddNumber from "../features/AddNumber";
+import NumberBank from "../features/NumberBank";
+import "./App.css";
 
 const App = () => {
   return (
