@@ -29,7 +29,7 @@ export default function NumberBank() {
 
   return (
     <section id="numberBank">
-      <h1>Number Bank</h1>
+      <h2>Number Bank</h2>
       <output>{numbers}</output>
       <div>
         <button onClick={onSort} name="sortOne">
@@ -39,10 +39,10 @@ export default function NumberBank() {
           Sort All
         </button>
       </div>
-      <h1>Sorted Numbers</h1>
-      <h1>Odds</h1>
+      <h2>Sorted Numbers</h2>
+      <h2>Odds</h2>
       <output>{odds}</output>
-      <h1>Evens</h1>
+      <h2>Evens</h2>
       <output>{evens}</output>
     </section>
   );
